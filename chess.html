@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess board</title>
+    <link rel="stylesheet" href="/CSS/chess.css">
+    <link rel="icon" href="https://tse3.mm.bing.net/th?id=OIP.OWQwuRfMr2RY2AqgSqpmXwHaHa&pid=Api&P=0&h=180">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <center> <nav id="nav">
+        
+    <div class="main">
+        <div class="div" id="black"><i class="fa-solid fa-chess-rook" id="rock3"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-knight" id="knight1"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-bishop" id="bishop1"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-queen" id="queen1"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-king" id="king1"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-bishop"  id="bishop2"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-knight"  id="knight2"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-rook" id="rock4"></i></div>
+    </div>
+
+    <div class="main">
+        
+        <div class="div" id="white"><i class="fa-solid fa-chess-pawn" id="pawn1"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-pawn" id="pawn2"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-pawn" id="pawn3"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-pawn" id="pawn4"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-pawn" id="pawn5"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-pawn" id="pawn6"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-pawn" id="pawn7"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-pawn" id="pawn8"></i></div>
+    </div>
+
+    <div class="main">
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+    </div>
+
+    <div class="main">
+        
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+    </div>
+
+    <div class="main">
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+    </div>
+
+    <div class="main">
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+        <div class="div" id="white"></div>
+        <div class="div" id="black"></div>
+    </div>
+    <div class="main">
+        <div class="div" id="black"><i class="fa-solid fa-chess-pawn" id="pawn9"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-pawn" id="pawn10"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-pawn" id="pawn11"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-pawn" id="pawn12"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-pawn" id="pawn13"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-pawn" id="pawn14"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-pawn" id="pawn15"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-pawn" id="pawn16"></i></div>
+    </div>
+
+    <div class="main">
+        <div class="div" id="white"><i class="fa-solid fa-chess-rook" id="rock1"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-knight"  id="knight3"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-bishop"  id="bishop3"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-queen" id="queen2"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-king" id="king2"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-bishop"  id="bishop4"></i></div>
+        <div class="div" id="white"><i class="fa-solid fa-chess-knight"  id="knight4"></i></div>
+        <div class="div" id="black"><i class="fa-solid fa-chess-rook" id="rock2"></i></div>
+    </div>
+</nav></center>
+</body>
+</html>
